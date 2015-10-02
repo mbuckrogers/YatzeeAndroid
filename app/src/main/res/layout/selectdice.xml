@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/popUpImageButton1"
+        android:layout_weight="1"
+        android:background="@drawable/d1"
+        />
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/popUpImageButton2"
+        android:cropToPadding="false"
+        android:layout_weight="1"
+        android:background="@drawable/d2"
+         />
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/popUpImageButton3"
+        android:adjustViewBounds="false"
+        android:layout_weight="1"
+        android:background="@drawable/d3"
+        />
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/popUpImageButton4"
+        android:adjustViewBounds="false"
+        android:layout_weight="1"
+        android:background="@drawable/d4"
+         />
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/popUpImageButton5"
+        android:layout_weight="1"
+        android:background="@drawable/d5"
+        android:adjustViewBounds="true"
+        />
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/popUpImageButton6"
+        android:layout_weight="1"
+        android:background="@drawable/d6"
+        android:adjustViewBounds="true"
+        />
+
+</LinearLayout>

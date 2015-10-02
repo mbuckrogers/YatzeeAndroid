@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:layout_weight="1"
+        android:background="@drawable/d1"
+        android:onClick="diceClicked1" />
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:cropToPadding="false"
+        android:layout_weight="1"
+        android:background="@drawable/d2"
+        android:onClick="diceClicked2" />
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3"
+        android:adjustViewBounds="false"
+        android:layout_weight="1"
+        android:background="@drawable/d3"
+        android:onClick="diceClicked3" />
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton4"
+        android:adjustViewBounds="false"
+        android:layout_weight="1"
+        android:background="@drawable/d4"
+        android:onClick="diceClicked4" />
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton5"
+        android:layout_weight="1"
+        android:background="@drawable/d5"
+        android:adjustViewBounds="true"
+        android:onClick="diceClicked5" />
+</LinearLayout>

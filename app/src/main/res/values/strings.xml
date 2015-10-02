@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Yatzee</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_die_roll">DieRollActivity</string>
+    <string name="title_activity_xxxx">XXXX</string>
+    <string name="title_activity_die_roller">DieRoller</string>
+    <string name="title_activity_score">Score</string>
+</resources>
